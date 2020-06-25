@@ -18,4 +18,8 @@ const addUser = (name, email) => {
   return [...users, { id: 2, name, email }];
 };
 
-module.exports = { addTwo, add, addUser };
+const returnInput = (input) => {
+  return input;
+};
+
+module.exports = { addTwo, add, addUser, returnInput };
