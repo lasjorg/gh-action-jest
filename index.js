@@ -1,5 +1,5 @@
 const addTwo = (num) => {
-  return num + 2;
+  return num + 4;
 };
 
 const add = (num1) => {
