@@ -1,4 +1,4 @@
-const { addTwo, add, addUser } = require('./index');
+const { addTwo, add, addUser, returnInput } = require('./index');
 
 test('Should add 2', () => {
   expect(addTwo(2)).toBe(4);
@@ -22,4 +22,8 @@ test('Should add a new user', () => {
       email: 'jill@test.com',
     },
   ]);
+});
+
+test('Should add numbers', () => {
+  expect(returnInput(42)).toBe(42);
 });
