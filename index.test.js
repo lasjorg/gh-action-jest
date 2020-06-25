@@ -24,6 +24,6 @@ test('Should add a new user', () => {
   ]);
 });
 
-test('Should add numbers', () => {
+test('Should return input', () => {
   expect(returnInput(42)).toBe(42);
 });
